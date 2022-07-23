@@ -1,6 +1,4 @@
-# Vite React Tailwind Template
-
-This template provide toolchain below:
+# Personal porfolio in react
 
 - Vite
 - React, ReactDOM
@@ -15,7 +13,3 @@ This template provide toolchain below:
 pnpm i
 pnpm dev
 ```
-
-# Screenshot
-
-![](https://i.imgur.com/ftvsXYB.png)

@@ -1,0 +1,11 @@
+@layer components {
+  .card {
+    @apply p-5 bg-white rounded-2xl bg-opacity-90 dark:bg-card-primary dark:bg-opacity-90 drop-shadow-md;
+  }
+
+  .grid-auto-fill {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+    gap: 1rem;
+  }  
+}

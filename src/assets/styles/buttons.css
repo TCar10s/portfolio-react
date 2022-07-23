@@ -1,0 +1,21 @@
+.btn {
+  @apply px-8 py-3 rounded-lg;
+}
+
+.btn-primary {
+  @apply text-white bg-primary hover:bg-blue-600
+           dark:text-[#1c2127] font-medium dark:hover:bg-primary-dark;
+}
+
+.btn-secondary {
+  @apply font-medium bg-white border border-primary text-primary hover:bg-blue-50 dark:border-primary-dark dark:text-primary-dark dark:bg-body-dark;
+}
+
+.btn-filter {
+  @apply btn btn-secondary active:bg-primary active:text-white cursor-pointer
+          dark:active:bg-primary-dark dark:active:text-[#1c2127] dark:bg-body-dark;
+}
+
+.btn-filter.active {
+    @apply text-white bg-primary;
+}
